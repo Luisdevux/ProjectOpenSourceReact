@@ -1,0 +1,45 @@
+.footer-conteudo {
+    display: flex;
+    background-color: rgba(32, 33, 36, 1);
+    color: rgba(241, 241, 241, 1);
+    height: 493px;
+    display: flex;
+    padding: 29px 20px 220px;
+    flex-direction: column;
+}
+
+footer .p1 {
+    padding: 29px 20px;
+}
+
+footer .p2 {
+    padding:  8px 20px;
+}
+
+footer .p3 {
+    padding: 36px 20px;
+}
+
+footer .p4 {
+    padding: 8px 20px;
+}
+
+footer a {
+    text-decoration:underline;
+    color: rgba(241, 241, 241, 1);
+}
+
+.text-link-footer:hover {
+    background-color: rgba(234, 221, 103, 1);
+    color: rgba(32, 33, 36, 1);
+    padding: 0 6px;
+    border-radius: 4px;
+}
+
+.footer-img {
+    display: flex;
+    background-color: rgba(56, 57, 63, 1);
+    height: 94px;
+    padding: 20px 21px;
+    gap: 24px;
+}
