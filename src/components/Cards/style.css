@@ -14,82 +14,17 @@
     overflow: hidden;
 }
 
+.card-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 332px;
+    height: 185px;
+}
 
 .card-banner img {
     width: 166px;
     height: 116px;
-}
-
-.card-banner-1 {
-    display: flex;
-    background-color: rgba(182, 213, 255, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
-}
-
-.card-banner-2 {
-    display: flex;
-    background-color: rgba(197, 243, 255, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
-}
-
-.card-banner-3 {
-    display: flex;
-    background-color: rgba(246, 194, 157, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
-}
-
-.card-banner-4 {
-    display: flex;
-    background-color: rgba(247, 183, 173, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
-}
-
-.card-banner-5 {
-    display: flex;
-    background-color: rgba(182, 245, 213, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
-}
-
-.card-banner-6 {
-    display: flex;
-    background-color: rgba(185, 219, 253, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
-}
-
-.card-banner-7 {
-    display: flex;
-    background-color: rgba(250, 229, 177, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
-}
-
-.card-banner-8 {
-    display: flex;
-    background-color: rgba(246, 194, 157, 1);
-    align-items: center;
-    justify-content: center;
-    width: 332px;
-    height: 185px;
 }
 
 .card-titulo h2 {
@@ -124,7 +59,8 @@
 
 .card-link {
     display: flex;
-    padding: 0 178px 24px 16px;
+    justify-content: center;
+    padding: 0 16px 24px 16px;
 }
 
 .card-link a{

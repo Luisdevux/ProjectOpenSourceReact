@@ -3,7 +3,7 @@ import "./style.css"
 export default function Cards(props: { id: number; icone: string; cor: string; titulo: string; descricao: string; tecnologias: string[]; link: string }) {
   return (
     <div className="card">
-      <div className={`card-banner-${props.id}`}>
+      <div className="card-banner" style={{ backgroundColor: props.cor }}>
         <img src={props.icone} alt="" />
       </div>
       <div className="card-titulo">
