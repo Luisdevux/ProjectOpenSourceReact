@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(182, 213, 255, 0.4)), url(/public/banner.png) center/cover no-repeat;
+    background: linear-gradient(rgba(182, 213, 255, 0.4)), url(/banner.png) center/cover no-repeat;
     height: 371px;
 }
 

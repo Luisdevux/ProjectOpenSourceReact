@@ -10,8 +10,8 @@ export default function Footer() {
               <p className="p4">Fonte:<a className="text-link-footer" href="https://pt.wikipedia.org/wiki/Software_livre" target="_blank">https://pt.wikipedia.org/wiki/Software_livre</a></p>
           </div>
           <div className="footer-img">
-              <img src="assets/images/ifro.svg" alt="" />
-              <img src="assets/images/fslab.svg" alt="" />
+              <img src="/ifro.svg" alt="" />
+              <img src="/fslab.svg" alt="" />
           </div>
       </footer>
     )
