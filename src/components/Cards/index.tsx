@@ -18,7 +18,7 @@ export default function Cards(props: { id: number; icone: string; cor: string; t
         ))}
       </div>
         <div className="card-link">
-        <a href={`#${props.link}`}>Saiba Mais</a>
+        <a href={`${props.link}`}>Saiba Mais</a>
       </div>
     </div>
   )
